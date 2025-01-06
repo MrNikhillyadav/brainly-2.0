@@ -1,8 +1,9 @@
+"use client"
+
 import { useRef, useState } from "react"
-import { CrossIcon } from "../../icons/CrossIcon"
+import { CrossIcon } from "../icons/CrossIcon"
 import { Button } from "./Button"
 import { Input } from "./Input"
-import { BACKEND_URL } from "../../config"
 import axios from "axios"
 
 interface ModalInterface {
@@ -25,20 +26,20 @@ export function CreateContentModal({open, onClose}:ModalInterface){
 
 
         async function CreateContent(){
-               const title = titleRef.current?.value;
-               const link = linkRef.current?.value
+        //        const title = titleRef.current?.value;
+        //        const link = linkRef.current?.value
                 
-               await axios.post(BACKEND_URL+'/api/v1/content',{
-                        title,
-                        link,
-                        type
-               },{
-                        headers :{
-                                'token':localStorage.getItem('token')
-                        }
-               })
+        //        await axios.post('localhost:3001/api/v1/content',{
+        //                 title,
+        //                 link,
+        //                 type
+        //        },{
+        //                 headers :{
+        //                         'token':localStorage.getItem('token')
+        //                 }
+        //        })
                
-               onClose()
+        //        onClose()
 
         }
 

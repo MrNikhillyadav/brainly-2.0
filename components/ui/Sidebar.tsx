@@ -1,9 +1,9 @@
-import SidebarItem from "./SidebarItem";
 import { RiTwitterXLine } from "react-icons/ri";
 import { ImYoutube } from "react-icons/im";
 import { LuBrain } from "react-icons/lu";
 import { IoDocumentText } from "react-icons/io5";
 import { PiLinkSimpleBold } from "react-icons/pi";
+import SidebarItem from './SidebarItem';
 
 export function Sidebar(){
         return (

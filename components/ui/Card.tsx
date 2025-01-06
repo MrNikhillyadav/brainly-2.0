@@ -1,7 +1,7 @@
-import { DeleteIcon } from "../../icons/DeleteIcon"
-import { ShareIcon } from "../../icons/ShareIcon"
-import { TwitterIcon } from "../../icons/Twittter"
-import { YoutubeIcon } from "../../icons/YoutubeIcon"
+import { DeleteIcon } from "../icons/DeleteIcon"
+import { ShareIcon } from "../icons/ShareIcon"
+import { TwitterIcon } from "../icons/Twitter"
+import { YoutubeIcon } from "../icons/YoutubeIcon"
 
 interface CardInterface{
         type: string,
