@@ -30,7 +30,6 @@ model Content {
   link    String
   type    String
   title   String
-  tags    Tag[]    @relation("ContentTags")
   userId  String
   user    User     @relation(fields: [userId], references: [id])
 }

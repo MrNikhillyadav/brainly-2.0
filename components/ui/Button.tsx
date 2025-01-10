@@ -6,6 +6,7 @@ interface ButtonInterface{
   title : string;
   size : "sm" | "md" |"lg";
   startIcon?: ReactElement,
+  href? : string,
   endIcon?: ReactElement,
   variant : 'primary'|'secondary'|'submit'|'disable',
   onClick?: () => void;
